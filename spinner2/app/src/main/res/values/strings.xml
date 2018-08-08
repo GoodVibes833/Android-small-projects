@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="textview"> no text</string>
+
+    <string-array name="turtlenames">
+        <item>Leo(B)</item>
+        <item>Mich(O)</item>
+        <item>Donatello</item>
+        <item>Raphael</item>
+    </string-array>
+</resources>

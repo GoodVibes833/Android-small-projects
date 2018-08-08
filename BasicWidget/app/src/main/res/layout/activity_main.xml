@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ca.hjtaki.basicwidget.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="380dp"
+        android:layout_height="110dp"
+        android:background="@android:color/holo_blue_bright"
+        android:lineSpacingExtra="8sp"
+        android:text="@stringd"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:typeface="sans"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="401dp" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CheckBox"
+        tools:layout_editor_absoluteX="145dp"
+        tools:layout_editor_absoluteY="99dp"
+        tools:ignore="MissingConstraints" />
+
+    <RadioGroup
+        android:layout_width="102dp"
+        android:layout_height="83dp"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="305dp"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="WOMAN"
+            android:textSize="8sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="MAN"
+            android:textSize="8sp" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="입력하세요"
+        android:inputType="textEmailAddress|phone"
+        android:text="sdsdsdsdsd@sdsdsds"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="259dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:text="123123123fsfs"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="213dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="66dp" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <!--canvas-->
+    <!--<ca.hjtaki.twodimgraghic.CanvasView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+
+    <!--bounce ball-->
+    <!--<Button-->
+        <!--android:id="@+id/Button"-->
+        <!--android:text="move"-->
+        <!--android:onClick="startMoving"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+
+    <!--<ca.hjtaki.twodimgraghic.BounceBall-->
+        <!--android:id="@+id/bouncView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+
+    <!--rain drop-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start"
+        android:onClick="rainStart"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="stop"
+        android:onClick="rainStop"/>
+
+    <!--<ca.hjtaki.twodimgraghic.rainDrop-->
+        <!--android:id="@+id/rainDrop"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+
+
+
+    <ca.hjtaki.twodimgraghic.RainDrops
+        android:id="@+id/raindrops"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+</LinearLayout>

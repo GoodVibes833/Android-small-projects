@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">LoginDemo</string>
+    <string name="FACEBOOK_APP_ID">2256712934341353</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">6c48c9051e72bb514ef94d2bdd7c6be5</string>
+    <string name="ak_login_protocol_scheme">ak2256712934341353</string>
+    <string name="facebook_app_id">2256712934341353</string>
+    <string name="fb_login_protocol_scheme">fb2256712934341353</string>
+
+
+
+</resources>

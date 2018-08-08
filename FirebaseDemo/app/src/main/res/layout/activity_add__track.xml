@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addTrack"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/nameInTrack"
+        android:text="title"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/titleInTrack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the track title..." />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Rating(0~5) : "/>
+
+    <TextView
+        android:id="@+id/rating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" 0"/>
+
+    <SeekBar
+        android:id="@+id/seekbarInTrack"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/btnInTrack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addTrack"
+        android:text="ADD TRACK"/>
+    <TextView
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tracks"/>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+
+
+
+</LinearLayout>

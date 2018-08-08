@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">랩5</string>
+    <string name="action_settings">세팅</string>
+    <string name="add_menu_title">뭐 해야해?</string>
+    <string name="create_button">만들기</string>
+</resources>

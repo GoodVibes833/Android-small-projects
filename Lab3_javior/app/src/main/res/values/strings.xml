@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Lab3</string>
+
+
+    <string-array name="movie">
+        <item>Catch me if you can </item>
+        <item>Fight Club</item>
+        <item>Forest Gump</item>
+        <item>God Father</item>
+        <item>Good will Hunting</item>
+        <item>Pulp Fiction </item>
+        <item>The Hang over</item>
+        <item>The Shaw Shank  Redemption</item>
+        <item>Titanic</item>
+
+
+
+    </string-array>
+
+
+
+</resources>

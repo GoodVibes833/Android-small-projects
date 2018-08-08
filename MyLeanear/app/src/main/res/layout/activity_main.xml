@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    android:orientation="vertical"
+    tools:context="ca.hjtaki.myleanear.MainActivity">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="137dp"
+        android:layout_height="97dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/holo_blue_dark"
+        android:gravity="left|center"
+        android:text="start1"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="start2" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start3" />
+
+</LinearLayout>

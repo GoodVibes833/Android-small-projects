@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ca.hjtaki.smsreceiver">
+
+    <uses-permission android:name="android.permission.RECEIVE_SMS"></uses-permission>
+
+    <!--
+    SMS 권한 추가 해주기, 추가로 실행자에게 허락을 또 받아야 하는데 이건 나중에 ... ㅁ
+    왼쪽 빌드 그래들에서 targetSdkVersion를 26 -22로 우선 낮췄다
+    -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".SmsReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+
+                <!-- 인텐트 필터 -->
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+                <!-- 모든 인텐트가 아닌 이렇게 되있는 인텐트만 받겠다 -->
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".Sms2Activity"></activity>
+    </application>
+
+</manifest>

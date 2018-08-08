@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TutleNinja</string>
+    <string name="topLabel">TutleNinja</string>
+    <array name="tmnt">
+        <item>Leo</item>
+        <item>Mich</item>
+        <item>Donatello</item>
+        <item>Raphael</item>
+    </array>
+</resources>
